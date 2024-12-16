@@ -14,7 +14,7 @@ export default function Home() {
       
       {/* <BackgroundBeamsWithCollision > */}
       
-        <div className="absolute inset-0 w-100vw   h-100vw sm:bg-[url('/home2.png')] bg-[url('/encoresm.png')] bg-cover opacity-65  phone:bg-center sm:bg-center  z-0"></div>
+        <div className="absolute inset-0 w-100vw   h-100vw sm:bg-[url('/home2.png')] bg-[url('/encoresm.png')] bg-cover opacity-100  phone:bg-center sm:bg-center  z-0"></div>
 
         {/* landing page */}
       

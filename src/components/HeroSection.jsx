@@ -24,9 +24,8 @@ const HeroSection = () => {
           />
 
           <p className="-mt-20 phone:pt-1 text-base sm:text-lg animate-fall">
-            THE CULTURAL FEST OF IET LUCKNOW 
+            THE CULTURAL FEST OF
           </p>
-          
         </div>
         <Image
           src="/imambada.png"
@@ -36,9 +35,6 @@ const HeroSection = () => {
           className="mx-auto position-relative   "
           draggable={false}
         />
-        
-
-        
       </div>
     </div>
   );
