@@ -6,7 +6,7 @@ const EventsPage = () => {
   return (
     <div >
       
-      
+      welcome to events
       
     </div>
   );

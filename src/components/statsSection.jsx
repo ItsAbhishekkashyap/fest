@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function StatsSection() {
   return (
-    <section className="relative  overflow-hidden">
+    <section className="relative w-screen  overflow-hidden">
       {/* Main container with shadow and background */}
       <div className="max-w-screen max-h-screen mx-auto">
         <div className="bg-white rounded-lg shadow-lg p-8 relative overflow-hidden">
@@ -16,22 +16,22 @@ export default function StatsSection() {
           {/* Stats grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 text-center relative z-10">
             <div className="p-6">
-              <div className="text-[#006B5E] text-5xl lg:text-6xl font-serif mb-2">20k+</div>
+              <div className="text-[#FFA500] text-5xl lg:text-6xl font-serif mb-2">20k+</div>
               <div className="text-gray-600">Footfall</div>
             </div>
 
             <div className="p-6">
-              <div className="text-[#006B5E] text-5xl lg:text-6xl font-serif mb-2">25+</div>
+              <div className="text-[#FFA500] text-5xl lg:text-6xl font-serif mb-2">25+</div>
               <div className="text-gray-600">Events</div>
             </div>
 
             <div className="p-6">
-              <div className="text-[#006B5E] text-5xl lg:text-6xl font-serif mb-2">100+</div>
+              <div className="text-[#FFA500] text-5xl lg:text-6xl font-serif mb-2">100+</div>
               <div className="text-gray-600">Performers</div>
             </div>
 
             <div className="p-6">
-              <div className="text-[#006B5E] text-5xl lg:text-6xl font-serif mb-2">10+</div>
+              <div className="text-[#FFA500] text-5xl lg:text-6xl font-serif mb-2">10+</div>
               <div className="text-gray-600">Workshops</div>
             </div>
           </div>
